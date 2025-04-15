@@ -7,7 +7,7 @@ should primarily use pyproject.toml.
 from setuptools import setup, find_packages
 
 setup(
-    name="control_lyapunov",
+    name="control-lyapunov",
     version="0.1.0",
     packages=find_packages(),
     install_requires=[
@@ -22,11 +22,16 @@ setup(
     description="A data-driven framework for synthesizing feedback controllers using learned Control Lyapunov Functions",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
-    url="https://github.com/Vrushabh27/control_lyapunov",
+    url="https://github.com/Vrushabh27/control-lyapunov",
     classifiers=[
         "Programming Language :: Python :: 3",
+        "Programming Language :: Python :: 3.7",
+        "Programming Language :: Python :: 3.8",
+        "Programming Language :: Python :: 3.9",
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
+        "Topic :: Scientific/Engineering :: Artificial Intelligence",
+        "Topic :: Scientific/Engineering :: Mathematics",
     ],
     python_requires=">=3.7",
 ) 

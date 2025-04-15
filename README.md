@@ -16,7 +16,17 @@ python install_dreal.py --check
 sudo python install_dreal.py
 ```
 
-### Step 2: Run the Van der Pol Example
+### Step 2: Install the Control Lyapunov Package
+
+```bash
+# Option 1: Install directly from PyPI
+pip install control-lyapunov
+
+# Option 2: Install from source in development mode
+pip install -e control_lyapunov
+```
+
+### Step 3: Run the Van der Pol Example
 
 ```bash
 # Option 1: Run with automatic dReal installation if needed
@@ -24,6 +34,9 @@ python run_van_der_pol.py --install
 
 # Option 2: Run the example (if dReal is already installed)
 python run_van_der_pol.py
+
+# Option 3: Run directly as a module (if installed via pip)
+python -m control_lyapunov.examples.van_der_pol_example
 ```
 
 This will:
@@ -35,13 +48,19 @@ This will:
 
 ## Installation
 
-### Option 1: Install the package in development mode
+### Option 1: Install from PyPI
+
+```bash
+pip install control-lyapunov
+```
+
+### Option 2: Install the package in development mode
 
 ```bash
 pip install -e control_lyapunov
 ```
 
-### Option 2: Install from source
+### Option 3: Install from source
 
 ```bash
 cd control_lyapunov

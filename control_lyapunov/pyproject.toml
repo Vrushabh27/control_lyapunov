@@ -3,7 +3,7 @@ requires = ["setuptools>=42", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "control_lyapunov"
+name = "control-lyapunov"
 version = "0.1.0"
 authors = [
     {name = "Vrushabh Zinage", email = "vrushabh@example.com"},
@@ -12,10 +12,17 @@ authors = [
 description = "A data-driven framework for synthesizing feedback controllers using learned Control Lyapunov Functions"
 readme = "README.md"
 requires-python = ">=3.7"
+license = {text = "MIT"}
+keywords = ["control theory", "lyapunov", "machine learning", "nonlinear systems", "verification"]
 classifiers = [
     "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Scientific/Engineering :: Mathematics",
 ]
 dependencies = [
     "torch>=1.8.0",
@@ -26,5 +33,6 @@ dependencies = [
 ]
 
 [project.urls]
-"Homepage" = "https://github.com/Vrushabh27/control_lyapunov"
-"Bug Tracker" = "https://github.com/Vrushabh27/control_lyapunov/issues" 
+"Homepage" = "https://github.com/Vrushabh27/control-lyapunov"
+"Bug Tracker" = "https://github.com/Vrushabh27/control-lyapunov/issues"
+"Documentation" = "https://github.com/Vrushabh27/control-lyapunov" 
