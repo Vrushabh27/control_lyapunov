@@ -105,6 +105,7 @@ For detailed documentation on using the package:
 
 ## Requirements
 
+- Ubuntu
 - Python 3.7+
 - PyTorch 1.8.0+
 - NumPy, SciPy, SymPy
