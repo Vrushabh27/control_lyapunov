@@ -111,7 +111,7 @@ For detailed documentation on using the package:
 - Matplotlib
 - dReal 4.21+
 
-## If you find our work useful, please cite us
+## If you find our work useful, please cite
 ```
 @article{zinage2023neural,
   title={Neural koopman lyapunov control},
