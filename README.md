@@ -111,6 +111,27 @@ For detailed documentation on using the package:
 - Matplotlib
 - dReal 4.21+
 
+## If you find our work useful, please cite us
+```
+@article{zinage2023neural,
+  title={Neural koopman lyapunov control},
+  author={Zinage, Vrushabh and Bakolas, Efstathios},
+  journal={Neurocomputing},
+  volume={527},
+  pages={174--183},
+  year={2023},
+  publisher={Elsevier}
+}
+
+@article{chang2019neural,
+  title={Neural lyapunov control},
+  author={Chang, Ya-Chien and Roohi, Nima and Gao, Sicun},
+  journal={Advances in neural information processing systems},
+  volume={32},
+  year={2019}
+}
+```
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](control_lyapunov/LICENSE) file for details.
