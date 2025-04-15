@@ -1,12 +1,10 @@
-# Control Lyapunov Functions (CLF) Package
+# Learning Control Lyapunov Functions with Formal Verification
 
-A data-driven framework for synthesizing feedback controllers using learned Control Lyapunov Functions (CLFs) for nonlinear systems.
-
-Developed by Vrushabh Zinage and Shrenik Zinage.
+A data-driven framework for synthesizing Control Lyapunov Functions (CLFs) and stabilizing feedback controllers using formal verification algorithms for nonlinear systems.
 
 ## Problem Overview
 
-Designing feedback-stabilizing controllers for nonlinear systems is often analytically intractable. This package implements a machine learning approach to synthesize stabilizing controllers for nonlinear control-affine systems of the form:
+Designing feedback-stabilizing controllers for general nonlinear systems is often analytically intractable. This package implements a machine learning approach to synthesize stabilizing controllers for nonlinear control-affine systems of the form:
 
 ```
 ẋ = f(x) + g(x)u
@@ -256,29 +254,8 @@ The package offers numerous tuning options:
 - Simulation duration
 - Initial state
 
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## Acknowledgments
-
-* This package was developed based on research in neural Lyapunov functions and data-driven control.
-* Special thanks to the dReal team for their symbolic reasoning tool.
-
-## Citation
-
-If you use this package in your research, please cite:
-
-```
-@software{control_lyapunov,
-  author = {Zinage, Vrushabh and Zinage, Shrenik},
-  title = {Control Lyapunov Functions (CLF) Package},
-  year = {2023},
-  publisher = {GitHub},
-  url = {https://github.com/Vrushabh27/control_lyapunov}
-}
-``` 

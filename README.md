@@ -1,11 +1,6 @@
-# Control Lyapunov Functions Framework
+# Learning Control Lyapunov Functions with Formal Verification
 
-A data-driven framework for synthesizing feedback controllers using learned Control Lyapunov Functions (CLFs) for nonlinear systems.
-
-This repository contains:
-- A Python package for learning and verifying Control Lyapunov Functions
-- Tools for controller synthesis and system verification
-- Example implementations for systems like the Van der Pol oscillator
+A data-driven framework for synthesizing Control Lyapunov Functions (CLFs) and stabilizing feedback controllers using formal verification algorithms for nonlinear systems.
 
 ## Quick Start
 
@@ -101,7 +96,3 @@ For detailed documentation on using the package:
 
 This project is licensed under the MIT License - see the [LICENSE](control_lyapunov/LICENSE) file for details.
 
-## Acknowledgments
-
-* This framework was developed based on research in neural Lyapunov functions and data-driven control
-* Special thanks to the dReal team for their symbolic reasoning tool 
